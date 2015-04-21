@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu SetRaceState-->
+<StateTextData name="SetRaceState">
+
+
+  <Text>
+  Ah! Więc pewnie trudnisz się... :
+</Text>
+
+
+<ProfessionData name="Agent specjalny">
+	<Text>Tu jest tekst o agentach specjalnych.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Aktor">
+	<Text>Tu jest tekst o Aktor.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Artysta">
+	<Text>Tu jest tekst o Artystach.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Arystokrata">
+	<Text>Tu jest tekst o Arystokrata.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Badacz">
+	<Text>Tu jest tekst o Badacz.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Bon vivant">
+	<Text>Tu jest tekst o Bon vivant.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Detektyw">
+	<Text>Tu jest tekst o Detektyw.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Duchowny">
+	<Text>Tu jest tekst o Duchowny.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Dziennikarz">
+	<Text>Tu jest tekst o Dziennikarz.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Myśliwy">
+	<Text>Tu jest tekst o Myśliwy.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Naukowiec">
+	<Text>Tu jest tekst o Naukowiec.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Odkrywca">
+	<Text>Tu jest tekst o Odkrywca.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Oficer">
+	<Text>Tu jest tekst o Oficer.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Pisarz">
+	<Text>Tu jest tekst o Pisarz.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Przestępca">
+	<Text>Tu jest tekst o Przestępca.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Rytualista">
+	<Text>Tu jest tekst o Rytualista.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Spirytysta">
+	<Text>Tu jest tekst o Spirytysta.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Sportowiec">
+	<Text>Tu jest tekst o Sportowiec.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Technomag">
+	<Text>Tu jest tekst o Technomag.
+	</Text>
+</ProfessionData>
+
+<ProfessionData name="Zabijaka">
+	<Text>Tu jest tekst o Zabijaka.
+	</Text>
+</ProfessionData>
+
+
+
+</StateTextData>
+
+
+	

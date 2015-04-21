@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WolsungHeroCreator.UserControls.LevelControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="45" d:DesignWidth="160">
+
+    <Grid x:Name="mainGrid" MouseEnter="mainGrid_MouseEnter">
+        <StackPanel x:Name="panelStack" Orientation="Horizontal" >
+            <Label x:Name="levelLabel" VerticalAlignment="Center" Width="80" />
+            <ProgressBar x:Name="progressBar" Width="60" Value="33" Foreground="Crimson"/>
+
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="plusButton"  Content="+"  Click="plusButton_Click"/>
+                <Button x:Name="minusButton" Content="-"  Click="minusButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

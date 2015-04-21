@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu SetRaceState-->
+<StateTextData name="SetRaceState">
+
+
+  <Text>
+    Okaż jeszcze swoje świadectwo dojrzałości:
+</Text>
+
+
+<SkillData name="Analiza">
+	<Text>Tu jest tekst o agentach Analiza.
+	</Text>
+</SkillData>
+
+<SkillData name="Blef">
+	<Text>Tu jest tekst o Blef.
+	</Text>
+</SkillData>
+
+<SkillData name="Ekspresja">
+	<Text>Tu jest tekst o Ekspresja.
+	</Text>
+</SkillData>
+
+<SkillData name="Empatia">
+	<Text>Tu jest tekst o Empatia.
+	</Text>
+</SkillData>
+
+<SkillData name="Odwaga">
+	<Text>Tu jest tekst o Odwaga.
+	</Text>
+</SkillData>
+
+<SkillData name="Bon Okultyzmn">
+	<Text>Tu jest tekst o Bon Okultyzmn.
+	</Text>
+</SkillData>
+
+<SkillData name="Perswazja">
+	<Text>Tu jest tekst o Perswazja.
+	</Text>
+</SkillData>
+
+<SkillData name="Pojazdy">
+	<Text>Tu jest tekst o Pojazdy.
+	</Text>
+</SkillData>
+
+<SkillData name="Półświatek">
+	<Text>Tu jest tekst o Półświatek.
+	</Text>
+</SkillData>
+
+<SkillData name="Przyroda">
+	<Text>Tu jest tekst o Przyroda.
+	</Text>
+</SkillData>
+
+<SkillData name="Spostrzegawczość">
+	<Text>Tu jest tekst o Spostrzegawczo.
+	</Text>
+</SkillData>
+
+<SkillData name="Strzelanie">
+	<Text>Tu jest tekst o Strzelanie.
+	</Text>
+</SkillData>
+
+<SkillData name="Technika">
+	<Text>Tu jest tekst o Technika.
+	</Text>
+</SkillData>
+
+<SkillData name="Ukrywanie się">
+	<Text>Tu jest tekst o Ukrywanie się.
+	</Text>
+</SkillData>
+
+<SkillData name="Wiedza akademicka">
+	<Text>Tu jest tekst o Wiedza akademicka.
+	</Text>
+</SkillData>
+
+<SkillData name="Walka">
+	<Text>Tu jest tekst o Walka.
+	</Text>
+</SkillData>
+
+<SkillData name="Wysportowanie">
+	<Text>Tu jest tekst o Wysportowanie.
+	</Text>
+</SkillData>
+
+<SkillData name="Zastraszanie">
+	<Text>Tu jest tekst o Zastraszanie.
+	</Text>
+</SkillData>
+
+<SkillData name="Złodziejstwo">
+	<Text>Tu jest tekst o Złodziejstwo.
+	</Text>
+</SkillData>
+
+
+</StateTextData>
+
+
+	

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu HelloState-->
+<StateTextData name="HelloState">
+  <Text>
+  Witaj Podróżniku!  
+          Niezwykłe czasy wymagają niezwykłych bohaterów!
+  Jestem pewien, że podołasz wyzwaniu, jeżeli więc nie chcesz 
+  się wycofać, porozmawiajmy chwilę.</Text>
+</StateTextData>

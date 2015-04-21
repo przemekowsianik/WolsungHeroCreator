@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="WolsungHeroCreator.States.ProfessionState"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/WolsungHeroCreator;component/ImageResources/oldPaper1.jpg"/>
+        </Grid.Background>
+
+        <StackPanel Orientation="Vertical" Margin="15,15,15,15" Grid.ColumnSpan="2">
+            <Label x:Name="textLabel" Content="Label"  VerticalAlignment="Top" FontFamily="Segoe Script" FontSize="14" FontStyle="Italic" FontWeight="Bold" />
+
+            <StackPanel Orientation="Horizontal" Margin="10,0,10,0">
+                <ListBox x:Name="professionListBox" Width="150" Height="150" BorderBrush="{x:Null}" Background="#4CFFFFFF" SelectionChanged="professionListBox_SelectionChanged" >
+                    <ListBoxItem Content="Agent specjalny" />
+                    <ListBoxItem Content="Aktor" />
+                    <ListBoxItem Content="Artysta" />
+                    <ListBoxItem Content="Arystokrata" />
+                    <ListBoxItem Content="Badacz" />
+                    <ListBoxItem Content="Bon vivant" />
+                    <ListBoxItem Content="Detektyw" />
+                    <ListBoxItem Content="Duchowny" />
+                    <ListBoxItem Content="Dziennikarz" />
+                    <ListBoxItem Content="Myśliwy" />
+                    <ListBoxItem Content="Naukowiec" />
+                    <ListBoxItem Content="Odkrywca" />
+                    <ListBoxItem Content="Oficer" />
+                    <ListBoxItem Content="Pisarz" />
+                    <ListBoxItem Content="Przestępca" />
+                    <ListBoxItem Content="Rytualista" />
+                    <ListBoxItem Content="Spirytysta" />
+                    <ListBoxItem Content="Sportowiec" />
+                    <ListBoxItem Content="Technomag" />
+                    <ListBoxItem Content="Zabijaka" />
+                </ListBox>
+
+                <TextBox x:Name="describeTextBox" Width="290" Height="150" Margin="30,0,0,0" Background="#4D230000" Foreground="#FFE8E8E8"/>
+            </StackPanel>
+
+        </StackPanel>
+
+        <Button Grid.Column="1" Grid.Row="1" Content="Tak" Click="Button_Click" />
+    </Grid>
+</UserControl>

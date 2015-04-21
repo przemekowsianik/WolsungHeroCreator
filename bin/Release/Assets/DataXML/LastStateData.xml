@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu HelloState-->
+<StateTextData name="HelloState">
+  <Text>
+  Dobrze więc,
+          Możesz iść, ku czekającemu na Ciebie losowi...
+.</Text>
+</StateTextData>

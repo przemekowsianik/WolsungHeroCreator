@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu SetRaceState-->
+<ArchetypeStateData name="ArchetypeState">
+  <Text>
+  Hmm, dobrze... Wypełnij jeszcze następującą anketę: 
+  
+  Jesteś:
+</Text>
+
+<NationData name="Akwitania">
+	<Text>Tu jest tekst o Akwitani.
+	</Text>
+</NationData>
+
+<NationData name="Alfheim">
+	<Text>Tu jest tekst o Alfheim.
+	</Text>
+</NationData>
+
+<NationData name="Atlantyda">
+	<Text>Tu jest tekst o Atlantydzie.
+	</Text>
+</NationData>
+
+<NationData name="Bawencja">
+	<Text>Tu jest tekst o Bawencji.
+	</Text>
+</NationData>
+
+<NationData name="Czarnoborze">
+	<Text>Tu jest tekst o Czarnoborzu.
+	</Text>
+</NationData>
+
+<NationData name="Eolia">
+	<Text>Tu jest tekst o Eolii.
+	</Text>
+</NationData>
+
+<NationData name="Hrimthorst">
+	<Text>Tu jest tekst o Hrimthorst.
+	</Text>
+</NationData>
+
+<NationData name="Jotumhein">
+	<Text>Tu jest tekst o Jotumhein.
+	</Text>
+</NationData>
+
+<NationData name="Koriola">
+	<Text>Tu jest tekst o Korioli.
+	</Text>
+</NationData>
+
+<NationData name="Lemuria">
+	<Text>Tu jest tekst o Lemurii.
+	</Text>
+</NationData>
+
+<NationData name="Morgowia">
+	<Text>Tu jest tekst o Morgowii.
+	</Text>
+</NationData>
+
+<NationData name="Pontyfikal">
+	<Text>Tu jest tekst o Pontyfikal.
+	</Text>
+</NationData>
+
+<NationData name="Serenissima">
+	<Text>Tu jest tekst o Serenissima.
+	</Text>
+</NationData>
+
+<NationData name="Scylla i Charybda">
+	<Text>Tu jest tekst o Scylla i Charybda.
+	</Text>
+</NationData>
+
+<NationData name="Slawia">
+	<Text>Tu jest tekst o Slawia.
+	</Text>
+</NationData>
+
+<NationData name="Ostria,Sudria,Nodria">
+	<Text>Tu jest tekst o Ostria,Sudria,Nodria.
+	</Text>
+</NationData>
+
+<NationData name="Sunnir">
+	<Text>Tu jest tekst o Sunnir.
+	</Text>
+</NationData>
+
+<NationData name="Westria">
+	<Text>Tu jest tekst o Westria.
+	</Text>
+</NationData>
+
+<NationData name="Winlandia">
+	<Text>Tu jest tekst o Winlandia.
+	</Text>
+</NationData>
+
+<NationData name="Wotania">
+	<Text>Tu jest tekst o Wotania.
+	</Text>
+</NationData>
+
+<NationData name="Ys">
+	<Text>Tu jest tekst o Ys.
+	</Text>
+</NationData>
+
+
+</ArchetypeStateData>
+
+
+	

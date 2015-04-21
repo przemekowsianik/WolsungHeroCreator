@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Dane Tekstowe dla stanu SetRaceState-->
+<StateTextData name="SetRaceState">
+  <Text>
+  Widzę że jesteś:
+</Text>
+
+<RaceData name="Człowiek">
+	<Text>Tu jest tekst o ludziach.
+	</Text>
+</RaceData>
+
+<RaceData name="Elf">
+	<Text>Tu jest tekst o Elfach.
+	</Text>
+</RaceData>
+
+<RaceData name="Gnom">
+	<Text>Tu jest tekst o Gnomach.
+	</Text>
+</RaceData>
+
+<RaceData name="Krasnolud">
+	<Text>Tu jest tekst o Krasnoludach.
+	</Text>
+</RaceData>
+
+<RaceData name="Niziołek">
+	<Text>Tu jest tekst o Niziołkach.
+	</Text>
+</RaceData>
+
+<RaceData name="Ogr">
+	<Text>Tu jest tekst o Ograch.
+	</Text>
+</RaceData>
+
+<RaceData name="Ork">
+	<Text>Tu jest tekst o Orkach.
+	</Text>
+</RaceData>
+
+<RaceData name="Troll">
+	<Text>Tu jest tekst o Trollach.
+	</Text>
+</RaceData>
+	
+	
+
+</StateTextData>
+
+
+	

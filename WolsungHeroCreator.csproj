@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F15A7918-E968-4314-9E10-7D60F889075F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WolsungHeroCreator</RootNamespace>
+    <AssemblyName>WolsungHeroCreator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="HeroLayer\AttributesHandler.cs" />
+    <Compile Include="HeroLayer\Hero.cs" />
+    <Compile Include="HeroLayer\Skill.cs" />
+    <Compile Include="HeroLayer\PointsToLeveling.cs" />
+    <Compile Include="States\ArchetypeState.xaml.cs">
+      <DependentUpon>ArchetypeState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\AttributeState.xaml.cs">
+      <DependentUpon>AttributeState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\DictionaryStringIntEventArgs.cs" />
+    <Compile Include="States\DictionaryStringSkillEventArgs.cs" />
+    <Compile Include="States\IState.cs" />
+    <Compile Include="StateManager\INavigator.cs" />
+    <Compile Include="StateManager\StateManager.cs" />
+    <Compile Include="States\HelloState.xaml.cs">
+      <DependentUpon>HelloState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\LastState.xaml.cs">
+      <DependentUpon>LastState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\NationAndNameState.xaml.cs">
+      <DependentUpon>NationAndNameState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\ProfessionState.xaml.cs">
+      <DependentUpon>ProfessionState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\SetRaceState.xaml.cs">
+      <DependentUpon>SetRaceState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\SkillsState.xaml.cs">
+      <DependentUpon>SkillsState.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="States\StringEventArgs.cs" />
+    <Compile Include="UserControls\AttributeControl.cs" />
+    <Compile Include="UserControls\LevelControl.xaml.cs">
+      <DependentUpon>LevelControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SkillControl.cs" />
+    <Compile Include="Utils\WriterPDFCard.cs" />
+    <Compile Include="Utils\XMLDataLoader.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="States\ArchetypeState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\AttributeState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\HelloState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\LastState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\NationAndNameState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\ProfessionState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\SetRaceState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="States\SkillsState.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\LevelControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Assets\blankenburg\Blankenburg.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\recordaScript\RecordaScript.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageResources\oldPaper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageResources\oldPaper2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageResources\oldPaper3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageResources\oldPaper4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\DataXML\ArchetypeStateData.xml" />
+    <Resource Include="Assets\DataXML\AttributeStateData.xml" />
+    <Resource Include="Assets\DataXML\HelloStateData.xml" />
+    <Resource Include="Assets\DataXML\LastStateData.xml" />
+    <Resource Include="Assets\DataXML\NationAndNameStateData.xml" />
+    <Resource Include="Assets\DataXML\ProfessionStateData.xml" />
+    <Resource Include="Assets\DataXML\SetRaceStateData.xml" />
+    <Resource Include="Assets\DataXML\SkillsStateData.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\images\logoWolsung.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
